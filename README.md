@@ -16,10 +16,11 @@ Before you start make sure you have:
 1. First update and install ansible
 ```bash
 $ sudo apt-get update
-$ sudo apt-get install software-properties-common
+$ sudo apt-get install -y software-properties-common
 $ sudo apt-add-repository ppa:ansible/ansible
 $ sudo apt-get update
-$ sudo apt-get install ansible
+$ sudo apt-get install -y ansible
+$ sudo apt-get install -y git
 ```
 2. Get repository and give execution privileges to start_setup.sh
 ```bash
